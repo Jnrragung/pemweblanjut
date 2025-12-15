@@ -14,7 +14,7 @@ class produkTableSeeder extends Seeder
     public function run(): void
     {
     $brg = new produk();
-    $brg->nama_produk ='Indomie oreng';
+    $brg->nama_produk ='Indomie Goreng';
     $brg->kategori = 1;
     $brg->harga_satuan = 100;
     $brg->stok = 100;
